@@ -7,9 +7,9 @@ class FMainClass extends GSInfo {
     function GetVersion()     { return SELF_VERSION; }
     function GetDate()        { return "2025-10-18"; }
     function CreateInstance() { return "MainClass"; }
-    function GetShortName()   { return "MLA"; }
+    function GetShortName()   { return "DMLA"; }
     function GetAPIVersion()  { return "1.10"; }
-    function GetURL()         { return "https://example.invalid/aorh"; }
+    function GetURL()         { return "https://github.com/drakeor/magnanimous-local-authorities"; }
 
     /* Declare real GS Parameters shown in-game (AI/GS settings → GS Parameters). */
     function GetSettings() {
